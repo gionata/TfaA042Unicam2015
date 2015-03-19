@@ -1,0 +1,98 @@
+Elaborazione delle immagini digitali
+====================================
+:author:    Gionata Massi
+:backend:   slidy
+:max-width: 45em
+:data-uri:
+:icons:
+:latexmath:
+:copyright: Gionata Massi (C) 2015
+:lang:      it
+:toc:
+
+[quote, Anonimo]
+
+Un'immagine vale più di mille parole
+
+Introduzione
+------------
+
+L'elaborazione delle immagini digitali è una disciplina informatica moderna.
+
+Ci occuperemo gli aspetti di elaborazione delle immagini matriciali (raster o bitmap) per:
+
+[role="incremental"]
+* migliorare la qualità delle immagini destinate all'interpretazione umana;
+* estrarre automaticamente gli elementi di un'immagine.
+
+Problematiche
+-------------
+
+Siamo circondati da strumenti di elaborazione, quali computer, tablet e
+smartphone. E questi dispositivi dispongono di sensori per l'acquisizione di
+immagini. Anche quando dobbiamo conoscere il nostro stato di salute ci
+rivolgiamo a tecniche d'indagine che producono immagini del nostro corpo.
+
+Ci sono tante problematiche interessanti!
+
+[role="incremental"]
+- Archiviazione delle immagini digitali
+    * Ridurre la dimensione dell'immagine (compressione)
+- Post-produzione di foto o video
+    * Eliminare o aggiungere elementi, cambiare ambientazioni
+- Medicina
+    * La diagnostica per immagini
+
+Esempio: Imaging a ultrasuoni
+-----------------------------
+
+ 1. Il sistema ad ultrasuoni (formato da un computer, una sonda ad ultrasuoni 
+composta da sonda "sorgente" e una "ricevitore" e un display) utilizza impulsi
+sonori di frequenza compresa tra 1 e 5 MHz.
+ 2. Le onde acustiche passano attraverso il corpo e colpiscono le zone di 
+confine dei tessuti, ad esempio tra tessuto molle e osso. Alcune onde sono
+riflesse indietro verso la sonda, altre continuano ancora per essere riflesse 
+da altre zone di discontinuità del tessuto.
+ 3. Le onde riflesse vengono captate dalla sonda e inviate al computer.
+ 4. Il computer calcola la distanza tra la sonda e le parti colpite utilizzando 
+la velocità di propoagazione del suono e il tempo di ritorno di ciascun eco.
+ 5. Il sistema mostra a video le intensità degli eco e le distanze, formando 
+un'immagine bidimensionale in scala di grigi.
+
+Elaborazione
+------------
+
+Le problematiche studiate nell'ambito dell'elaborazione delle immagini comprendono:
+
+
+[role="incremental"]
+ * Acquisizione delle immagini
+ * Filtraggio e miglioramento (enhancement)
+ * Restauro (ripristino)
+ * Elaborazione morfologica
+ * Segmentazione
+
+Di cosa parla questo corso?
+---------------------------
+
+* UD1: Le fondamenta
+   - Visione umana
+   - Sensori e acquisizione
+   - Campionamento e quantizzazione
+* UD2: Miglioramento delle immagini
+   - Immagini in negativo
+   - Equalizzazione dell'istogramma
+   - Filtraggio nel dominio spaziale
+
+Cosa apprenderò o a cosa mi sarà utile?
+---------------------------------------
+
+* Comprendere le tecnologie
+   - come funziona una fotocamera?
+   - come ridurre la dimensione delle immagini?
+   - come valutare una fotocamera
+* Modificare e `migliorare' le immagini
+   - Immagini in negativo
+   - Equalizzazione dell'istogramma
+   - Filtraggio nel dominio spaziale
+
