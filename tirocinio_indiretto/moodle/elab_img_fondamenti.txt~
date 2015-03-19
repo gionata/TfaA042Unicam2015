@@ -1,0 +1,158 @@
+I fondamenti immagini digitali
+===============================
+:author:    Gionata Massi
+:backend:   slidy
+:max-width: 45em
+:data-uri:
+:icons:
+:latexmath:
+:copyright: Gionata Massi (C) 2015
+:lang:      it
+:toc:
+
+
+In questo segmento didattico sono presentati i concetti fondamentali sull'elaborazione delle immagini digitali.
+
+Vogliamo farci un'idea:
+
+* sul cosa intendere per immagine;
+* sul funzionamento della percezione visiva;
+* sull'acquisizione delle immagini;
+* sul campionamento e sulla quantizzazione.
+
+Immagine
+--------
+
+Una immagine può essere caratterizzata come la distribuzione spaziale
+di energia radiante prodotta da una sorgente luminosa:
+
+latexmath:[$f = f(x, y, \lambda, t), 0 \leq f \leq +\infty$]
+
+_f_ è reale, non negativa, finita e limitata (rispetto alle variabili spaziali e
+temporale).
+
+L'immagine effettivamente percepita (da un osservatore umano) o
+acquisita (mediante un trasduttore) è la _f_ modificata dalla risposta
+dell'osservatore o del trasduttore, tipicamente secondo una media
+temporale e una media rispetto alle varie lunghezze d'onda
+
+Luce
+----
+Alcune grandezze introdotte per misurare l'energia radiante sono:
+
+  * Radianza (radiance)
+  * Flusso luminoso (luminance) [lumen lm]
+  * Luminosità (brightness)
+  * Potenza [Watt W]
+
+Modello di creazione delle immagini
+-----------------------------------
+
+ * latexmath:[$i(x, y), 0 \leq i \leq +\infty$] illuminazione
+ * latexmath:[$r(x, y), 0 \leq i \leq 1$] riflettanza
+ * latexmath:[$f(x, y) = i(x, y) \cdot r(x, y)$] immagine
+
+Modello discreto
+----------------
+ 
+ * latexmath:[$f(x, y)= \left| \begin{array}{cccc} f(0, 0) & f(0, 1) & \cdots & f(0, n-1)\\f(1, 0) & f(1, 1) & \cdots & f(1, n-1)\\ \vdots  & \vdots & & \vdots\\ f(m-1, 0) & f(m-1, 1) & \cdots  & f(m-1, n-1) \end{array} \right|$]
+
+++++
+<img
+src="http://1.bp.blogspot.com/-Me5tiEBNRck/USzY_yPc5NI/AAAAAAAAAE4/RhHDH02yv7c/s1600/e+1.JPG">
+</img>
+++++
+
+++++
+<img
+src="http://1.bp.blogspot.com/-xoVEmmNaVKo/UTU8Iqh3qOI/AAAAAAAAAFY/nZO5ipOXgX0/s1600/e+2.JPG">
+</img>
+++++
+
+Il sistema visivo - L'occhio
+----------------------------
+
+++++
+<img
+src="http://upload.wikimedia.org/wikipedia/commons/0/08/Schematic_diagram_of_the_human_eye_it.svg"></img>
+++++
+
+
+Il sistema visivo - I fotorecettori
+-----------------------------------
+
+
+Lo strato dei fotorecettori, come dice il nome, è costituito da una parte
+delle cellule recettoriali presenti nell'occhio e sensibili alle radiazioni
+luminose: i coni e i bastoncelli.
+
+La principale differenza fra coni e bastoncenlli, che si ripercuote su una
+diversa capacità funzionale, è la presenza di
+pigmenti sensibili a tre diverse frequenze di onde elettromagnetiche (rosso,
+blu e verde) nei coni.
+
+I bastoncelli ci permettono di percepire l'intensità luminosa, i coni ci
+permettono di percepire il colore.
+
+Nel complesso i bastoncelli sono circa 110 milioni,
+mentre i coni 7 milioni circa.
+
+Acquisizione - Il fotorecettore
+-------------------------------
+
+++++
+<img
+ src="http://4.bp.blogspot.com/-MvkZgjMT0j4/UTafwY43qfI/AAAAAAAAAGY/lPtpQV5JCDM/s1600/e+10.JPG"></img>
+++++
+
+Acquisizione - Il processo
+--------------------------
+
+++++
+<img
+ src="http://2.bp.blogspot.com/-Zs1Gc39IoPQ/UTahpWK70UI/AAAAAAAAAG0/hmTSUhcua18/s1600/e+13.JPG"></img>
+++++
+
+
+Campionamento
+-------------
+
+++++
+<img
+src="http://4.bp.blogspot.com/-mqbqMw4FFL8/UT6KajecTRI/AAAAAAAAAHk/lNlUMTvElDU/s640/e+15.JPG"></img>
+++++
+
+Quantizzazione
+--------------
+
+++++
+<img
+src="http://2.bp.blogspot.com/-Iq4GRXCvMIk/UT6JFbIlUAI/AAAAAAAAAHc/WfXDiIEjmJs/s640/e+14.JPG"></img>
+++++
+
+Risoluzione spaziale
+--------------------
+
+++++
+<img
+src="http://2.bp.blogspot.com/-6uGAL0rPKw4/UWU4YpG8FZI/AAAAAAAAAIY/7JFWgNQe2d4/s640/e+16.JPG"></img>
+++++
+
+++++
+<img
+src="http://2.bp.blogspot.com/-TnmLWAEoqvw/UWVakw_5s7I/AAAAAAAAAIo/6lSB7WydCJY/s640/e+17.JPG"></img>
+++++
+
+
+Risoluzione d'intensità
+-----------------------
+
+++++
+<img
+src="
+http://3.bp.blogspot.com/-Jl3X_aGmlzY/UWVbaQJoSaI/AAAAAAAAAI4/S8n8Hk6KQt0/s640/e+19.JPG"></img>
+++++
+
+
+
+
