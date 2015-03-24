@@ -1,0 +1,74 @@
+Elaborazioni delle immagini
+===========================
+:author:    Gionata Massi
+:backend:   slidy
+:max-width: 45em
+:data-uri:
+:icons:
+:latexmath:
+:copyright: Gionata Massi (C) 2015
+:lang:      it
+:toc:
+
+
+In questo segmento didattico sono presentate alcune elaborazioni delle
+immagini digitalie operano sui singoli punti (pixel) in relazione a se stessi
+o a tutti quelli che si trovano in un intorno.
+
+Vogliamo farci un'idea:
+
+* di quali strumenti matematici siano necessari;
+* delle operazioni che si possiomo definire sulle immagini;
+* di come modificare un'immagine operando pixel per pixel;
+* come modificare un'immagine operando su un insieme di pixel.
+
+L'immagine come una funzione
+----------------------------
+
+* latexmath:[$f(x, y)= \left| \begin{array}{cccc} f(0, 0) & f(0, 1) & \cdots & f(0, n-1)\\f(1, 0) & f(1, 1) & \cdots & f(1, n-1)\\ \vdots  & \vdots & & \vdots\\ f(m-1, 0) & f(m-1, 1) & \cdots  & f(m-1, n-1) \end{array} \right|$]
+
+++++
+<!--img
+src="http://1.bp.blogspot.com/-Me5tiEBNRck/USzY_yPc5NI/AAAAAAAAAE4/RhHDH02yv7c/s1600/e+1.JPG">
+</img-->
+++++
+
+++++
+<!--img
+src="http://1.bp.blogspot.com/-xoVEmmNaVKo/UTU8Iqh3qOI/AAAAAAAAAFY/nZO5ipOXgX0/s1600/e+2.JPG">
+</img-->
+++++
+
+Istogramma
+----------
+
+L'istogramma di un'immagine digitale con livelli di grigio tra 
+latexmath:[$[0, L-1]$] è una funzione discreta
+latexmath:[$h(r_k) = n_k] che associa al _k_-esimo livello di grigio il
+numero di pixel con quel livello.
+
+E' pratica comune normalizzare i valori dell'istogramma dividendo ognuno di
+questi valori per il numero totale di pixel nell'immagine.
+
+latexmath:[$p(r_k) = \frac{n_k}{N}$]
+
+Possiamo dire che per latexmath:[$k = 1, 2, \ldots, L-1\quad p(r_k)$]
+è una stima della probabilità di occorrenza del livello di grigio
+latexmath:[$r_k$].
+
+L'istogramma è alla base di numerose tecniche di elaborazione nel dominio
+spaziale.
+
+Equalizzazione - Esempio
+------------------------
+
+++++
+<img
+src="http://4.bp.blogspot.com/-ItJYodx3RNo/Usw_h1WrhrI/AAAAAAAAAYs/W42i0j4Yww0/s1600/25a1.JPG" />
+++++
+
+Equalizzazione
+--------------
+
+blah blah blah
+
