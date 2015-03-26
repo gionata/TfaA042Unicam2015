@@ -97,3 +97,10 @@ Cosa apprenderò o a cosa mi sarà utile?
    - Equalizzazione dell'istogramma
    - Filtraggio nel dominio spaziale
 
+Testo di riferimento
+--------------------
+
+[bibliography]
+.Libro di testo
+- [[[gonzales]]] Rafael C. Gonzales & Richard E. Woods. 'Elaborazione delle
+  immagini digitali'. Pearson. ISBN 978-88-7192-506-6.

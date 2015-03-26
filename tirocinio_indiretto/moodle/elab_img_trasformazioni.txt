@@ -72,3 +72,8 @@ Equalizzazione
 
 blah blah blah
 
+Immagini in negativo
+
+Equalizzazione dell'istogramma
+
+Filtraggio nel dominio spaziale
