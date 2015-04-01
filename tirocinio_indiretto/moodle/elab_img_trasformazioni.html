@@ -5113,6 +5113,21 @@ src="http://1.bp.blogspot.com/-xoVEmmNaVKo/UTU8Iqh3qOI/AAAAAAAAAFY/nZO5ipOXgX0/s
 </div>
 </div>
 <div class="sect1 slide">
+<h1 id="_un_8217_assunzione_importante">Un&#8217;assunzione importante</h1>
+<div class="sectionbody" style="max-width:45em">
+<div class="paragraph"><p>Assumiamo di lavorare con immagini in scala di grigio.
+Le immagini a colori sono il risultato della miscelazione di immagini definite
+con una terna, ad esempio con la terna di colori rosso (red), verde (green) e
+blu (blue), che costituisce il cosiddetto spazio di colore RGB.</p></div>
+<div class="paragraph"><p>Esistono delle trasformazioni che permettono di convertire un&#8217;immagine a
+colori nell&#8217;immagine in scala di grigi corrispondente.
+Questo è già un esempio di elaborazione dell&#8217;immagine digitale che opera
+pixel per pixel.</p></div>
+<div class="paragraph"><p>Dove esplicitamente non detto, assumeremo che le immagini associano ad ogni
+pixel (i, j) un valore d&#8217;intensità (livello di grigio) nell&#8217;insieme {0, 1, &#8230;, L - 1}.</p></div>
+</div>
+</div>
+<div class="sect1 slide">
 <h1 id="_istogramma">Istogramma</h1>
 <div class="sectionbody" style="max-width:45em">
 <div class="paragraph"><p>L&#8217;istogramma di un&#8217;immagine digitale con livelli di grigio tra
@@ -5127,6 +5142,22 @@ questi valori per il numero totale di pixel nell&#8217;immagine.</p></div>
 $r_k$.</p></div>
 <div class="paragraph"><p>L&#8217;istogramma è alla base di numerose tecniche di elaborazione nel dominio
 spaziale.</p></div>
+<div class="paragraph"><p>Vedere la <a href="http://it.wikipedia.org/wiki/Istogramma">voce di Wikipedia
+sull&#8217;istogramma</a>.</p></div>
+</div>
+</div>
+<div class="sect1 slide">
+<h1 id="_equalizzazione_dell_8217_istogramma">Equalizzazione dell&#8217;istogramma</h1>
+<div class="sectionbody" style="max-width:45em">
+<div class="paragraph"><p>Questo metodo di solito incrementa il contrasto globale di molte immagini,
+specialmente quando i dati usabili dell&#8217;immagine sono rappresentati da valori
+di contrasto molto vicini. Attraverso questo adattamento, le intensità possono
+essere meglio distribuite sull&#8217;istogramma. Questo permette per le aree a basso
+contrasto locale di ottenere un più alto contrasto. L&#8217;equalizzazione
+dell&#8217;istogramma ottiene ciò spalmando la maggior parte dei valori di intensità
+frequente.</p></div>
+<div class="paragraph"><p>Vedere la <a href="http://it.wikipedia.org/wiki/Equalizzazione_dell%27istogramma">voce
+di Wikipedia sull&#8217;equalizzazione dell&#8217;istogramma</a>.</p></div>
 </div>
 </div>
 <div class="sect1 slide">
@@ -5137,12 +5168,26 @@ src="http://4.bp.blogspot.com/-ItJYodx3RNo/Usw_h1WrhrI/AAAAAAAAAYs/W42i0j4Yww0/s
 </div>
 </div>
 <div class="sect1 slide">
-<h1 id="_equalizzazione">Equalizzazione</h1>
+<h1 id="_immagini_in_negativo">Immagini in negativo</h1>
 <div class="sectionbody" style="max-width:45em">
-<div class="paragraph"><p>blah blah blah</p></div>
-<div class="paragraph"><p>Immagini in negativo</p></div>
-<div class="paragraph"><p>Equalizzazione dell&#8217;istogramma</p></div>
-<div class="paragraph"><p>Filtraggio nel dominio spaziale</p></div>
+<div class="paragraph"><p>L&#8217;operazione che traforma un&#8217;immagine nella sua rappresentazione in negativo
+è&#8230;</p></div>
+<div class="paragraph"><p>quella trasformazione che mappa 0 in L - 1 e L - 1 in 0.</p></div>
+<div class="paragraph"><p>Sei in grado di determinarla? E' una funzione lineare&#8230;</p></div>
+<div class="paragraph"><p>Provaci! Se non riesci dopo due minuti allora passa alla slide successiva.</p></div>
+</div>
+</div>
+<div class="sect1 slide">
+<h1 id="_immagini_in_negativo_2">Immagini in negativo</h1>
+<div class="sectionbody" style="max-width:45em">
+<div class="paragraph"><p>L&#8217;operazione che traforma un&#8217;immagine nella sua rappresentazione in negativo
+è</p></div>
+<div class="paragraph"><p>$f\prime (i, j) \to L - 1 - f (i, j)$.</p></div>
+</div>
+</div>
+<div class="sect1 slide">
+<h1 id="_filtraggio_nel_dominio_spaziale">Filtraggio nel dominio spaziale</h1>
+<div class="sectionbody" style="max-width:45em">
 </div>
 </div>
 </body>
